@@ -247,7 +247,7 @@ int main() {
         }
     }
 }
-/*
+
 CLog newLog() {
     CLog log;
     printf("Enter ID: ");
@@ -365,7 +365,8 @@ CLog newLog() {
         }
         else
             printf("Invalid option.\n");
-    }
+}
+     }
 
     TLog* root = NULL;
     LogHeap heap;
