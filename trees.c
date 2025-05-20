@@ -90,16 +90,16 @@ void postorderTraversal(TLog* root) {
 // ========== Convert Linked List to BST ==========
 
 // Count nodes in linked list
-/*
-int countListNodes(struct LogEntry* head) {
+
+int countListNodes(TLog* head) {
     int count = 0;
     while (head) {
         count++;
-        head = head->next;
+        head = head->left;
     }
     return count;
 }
-*/
+
 
 // Helper to convert sorted linked list to BST
 /*
